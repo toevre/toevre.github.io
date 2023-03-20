@@ -41,6 +41,9 @@
         get color() {
             return this._shadowRoot.getElementById("styling_color").value;
         }
+	get text() {
+            return "test";
+        }
     }
 
     customElements.define("com-sap-sample-coloredbox-styling", ColoredBoxStylingPanel);
